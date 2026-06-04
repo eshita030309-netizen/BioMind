@@ -1,0 +1,32 @@
+[
+  {
+    "id": "bact-struct-1",
+    "topic": "Bacterial Structure",
+    "difficulty": "easy",
+    "type": "mcq",
+    "question": "Which structure is present in most bacteria but not in animal cells?",
+    "options": [
+      "Nucleus",
+      "Cell wall",
+      "Mitochondria",
+      "Golgi apparatus"
+    ],
+    "answerIndex": 1,
+    "explanation": "Most bacteria have a cell wall; animal cells do not."
+  },
+  {
+    "id": "growth-1",
+    "topic": "Growth Curves",
+    "difficulty": "medium",
+    "type": "mcq",
+    "question": "During which phase of the bacterial growth curve do cells divide at a constant, maximum rate?",
+    "options": [
+      "Lag phase",
+      "Log (exponential) phase",
+      "Stationary phase",
+      "Death phase"
+    ],
+    "answerIndex": 1,
+    "explanation": "In the log phase, bacteria divide rapidly at a constant rate."
+  }
+]
