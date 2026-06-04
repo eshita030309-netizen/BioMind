@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BioMind | Microbiology</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-left">
+      <img src="assets/logo.svg" alt="BioMind logo" class="logo" />
+      <span class="brand">BioMind</span>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="genetics.html">Genetics</a>
+      <a href="anatomy.html">Anatomy</a>
+      <a href="microbiology.html">Microbiology</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="module-page">
+    <section class="module-header">
+      <div>
+        <h1>Microbiology</h1>
+        <p>Slides and questions on microbes, growth, and host–pathogen interactions.</p>
+      </div>
+    </section>
+
+    <section class="slide-container" data-module="microbiology">
+      <h2 class="slide-title"></h2>
+      <p class="slide-body"></p>
+      <div class="slide-controls">
+        <button id="prev-slide">Previous</button>
+        <span class="slide-progress"></span>
+        <button id="next-slide">Next</button>
+      </div>
+    </section>
+
+    <section class="quiz-section">
+      <h2>Practice Questions</h2>
+      <div class="quiz-controls">
+        <select id="topic-filter">
+          <option value="all">All topics</option>
+          <option value="Bacterial Structure">Bacterial Structure</option>
+          <option value="Growth Curves">Growth Curves</option>
+          <option value="Antibiotic Resistance">Antibiotic Resistance</option>
+        </select>
+        <select id="difficulty-filter">
+          <option value="all">All difficulties</option>
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+        <button id="generate-question">Generate Question</button>
+      </div>
+
+      <div class="quiz-card hidden">
+        <p class="quiz-question"></p>
+        <ul class="quiz-options"></ul>
+        <button id="reveal-answer" class="hidden">Reveal Answer</button>
+        <p class="quiz-explanation hidden"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 BioMind · Built by Eshita Boddepalli</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
