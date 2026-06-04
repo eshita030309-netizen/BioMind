@@ -1,0 +1,32 @@
+[
+  {
+    "id": "cardio-1",
+    "topic": "Cardiovascular System",
+    "difficulty": "easy",
+    "type": "mcq",
+    "question": "Which chamber of the heart pumps oxygenated blood to the body?",
+    "options": [
+      "Right atrium",
+      "Right ventricle",
+      "Left atrium",
+      "Left ventricle"
+    ],
+    "answerIndex": 3,
+    "explanation": "The left ventricle pumps oxygenated blood into the aorta and out to the body."
+  },
+  {
+    "id": "resp-1",
+    "topic": "Respiratory System",
+    "difficulty": "medium",
+    "type": "mcq",
+    "question": "Gas exchange in the lungs primarily occurs in the:",
+    "options": [
+      "Trachea",
+      "Bronchi",
+      "Alveoli",
+      "Pleura"
+    ],
+    "answerIndex": 2,
+    "explanation": "Alveoli are tiny air sacs where oxygen and carbon dioxide are exchanged with blood."
+  }
+]
